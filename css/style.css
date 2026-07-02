@@ -16,6 +16,7 @@ html, body{
     color:white;
     display: flex;
     justify-content: center;
+    
 }
 /*configuracoes de menu*/
 .top-menu{
@@ -33,7 +34,7 @@ html, body{
 
 }
 .logo-img{
-    width: 30%;
+    width: 40%;
 }
 /*tira as decoracao da teg a*/
 a{
