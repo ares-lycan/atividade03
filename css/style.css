@@ -11,27 +11,37 @@ html, body{
 /*configuracao do topo do siti*/
 .top-logo{
     background-color:#13293d;
+    background-repeat: no-repeat;
+    object-fit: cover;
     padding: 30px;
     text-align: center;
     color:white;
+    
+    display: flex;
+    justify-content: center;
 }
 /*configuracoes de menu*/
 .top-menu{
     display:flex;
-    gap:20px;
-    background-color:#006494;
+    gap:30px;
+    background-color:aqua;
     padding:15px;
     font-size: 20px;
     font-weight: 700;
+    text-transform: uppercase;
 }
 .top-menu a:hover{
-    color: white;
+    color: blue;
+    text-decoration: underline;
 
+}
+.logo-img{
+    width: 30%;
 }
 /*tira as decoracao da teg a*/
 a{
     text-decoration:none;
-    color:#898989
+    color:black
 }
 /*alinha o desto de boas vinda no centro */
 .boas-vinda{
@@ -52,7 +62,13 @@ a{
 .conteldo-text{
     box-shadow: 1px 1px 2px black;
     padding: 50px;
+    background-color:aliceblue;
+    border-radius: 5px;
 
+}
+/*estilisa o h3*/
+.conteudo-main h3{
+  padding: 10px;
 }
 
 /*centraliza o meu corpo no meio da pagina */
@@ -60,8 +76,11 @@ main{
     flex:1;
     width: 80%;
     margin: 0 auto;
-    background-color: #e8f1f2;
+    background-color:#e4e4e5;
+    padding:20px;
+    border-radius: 9px;
 }
+
 /*configura a galeria de imagem */
 .galeria{
     margin-top: 30px;
@@ -79,10 +98,18 @@ main{
     border-radius: 5px;
     
 }
+/*estilisa as linhas hr*/
+hr{
+    border: solid 1px aqua;
+}
 footer{
     display:flex;
     background-color: aqua;
     padding:20px;
     justify-content: center;
-    gap:10px;
+    gap:80px;
+    margin-top: 20px;;
+}
+.foot__img{
+    width:40px
 }
