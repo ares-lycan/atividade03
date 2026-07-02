@@ -35,7 +35,7 @@ html, body{
     text-decoration: underline;
 
 }
-.logo-img{
+.top-logo >img{
     width: 30%;
 }
 /*tira as decoracao da teg a*/
