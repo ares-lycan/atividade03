@@ -11,12 +11,9 @@ html, body{
 /*configuracao do topo do siti*/
 .top-logo{
     background-color:#13293d;
-    background-repeat: no-repeat;
     object-fit: cover;
     padding: 30px;
-    text-align: center;
     color:white;
-    
     display: flex;
     justify-content: center;
 }
@@ -35,7 +32,7 @@ html, body{
     text-decoration: underline;
 
 }
-.top-logo >img{
+.logo-img{
     width: 30%;
 }
 /*tira as decoracao da teg a*/
